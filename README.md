@@ -9,6 +9,7 @@ Just to learn sonething new
 - [x] working with branches, incl. creating one, working on, pull request, merging and deleting
 - [x] and one branch from another one
 - [x] nun geht es ans Review der Änderungen in den Branches
-- [ ] möglicherweise mehrere Reviews
-- [ ] und: das entsprechende Mergen!
+- [x] möglicherweise mehrere Reviews
+- [x] und: das entsprechende Mergen!
+- [x] Issue-Template anlegen für einen BUG
 - [ ] und noch ein wenig mehr
