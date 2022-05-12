@@ -1,0 +1,28 @@
+# Ich bin ein Kommentar
+# Zwei Standard-Code-Owner für alles
+# man beachte das * am Anfang der Zeile
+* @projekteignerin @superwoman
+# Zuweisen einer einzelnen Datei
+testing.md @schlumpfine
+# Falls nur Dateien mit der Endung .html in einem Pull-Request auftauchen,
+# bekommt dieser User den Aufruf (aber nicht unsere Standard-Owner oben).
+# Es können auch die bei GitHub verwendeten Mailadressen genutzt werden.
+*.html webmaster@website.de
+# Für jede Datei und jedes Unterverzeichnis
+# im Verzeichnis "website" ist der User Eigentümer,
+# egal wo sich dieses Verzeichnis befindet.
+website/ @webmaster
+# Für jede Datei und jedes Unterverzeichnis
+# im Verzeichnis "website", das direkt
+# im root-Verzeichnis ist, ist der User Eigentümer,
+# aber nicht /doc/website oder /doc/sub/website.
+/website/ @webmaster
+# Wichtig zu wissen: Die Reihenfolge zählt. Alles, was weiter unten in der Datei
+# steht, kann alles, was weiter oben steht, überschreiben. So kö nnte nachfolgendes
+# Beispiel Schlumpfine davon abhalten, dass sie etwas zu tun bekommt:
+# Reihenfolge ist wichtig, Einträge weiter unten
+# überschreiben die Einträge weiter oben.
+# Zuweisen einer einzelnen Datei.
+testing.md @schlumpfine
+# Zuweisen einer Dateiendung - überschreibt die obige.
+*.md @schlaubi_schlumpf
