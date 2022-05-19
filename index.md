@@ -35,3 +35,21 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+
+# testing-it-all
+Just to learn sonething new
+
+## meine ersten to dos:
+- [x] create a repostiory
+- [x] README.md mit Inhalt füllen
+- [x] Beschreibung des Markdown für Github finden ->  [Writing on Github](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [x] fixing the first issue
+- [x] working with branches, incl. creating one, working on, pull request, merging and deleting
+- [x] and one branch from another one
+- [x] nun geht es ans Review der Änderungen in den Branches
+- [x] möglicherweise mehrere Reviews
+- [x] und: das entsprechende Mergen!
+- [x] Issue-Template anlegen für einen BUG
+- [ ] und noch ein wenig mehr
+
